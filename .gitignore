@@ -1,0 +1,26 @@
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+
+# Virtual environment folders
+venv/
+.env/
+.env*/
+*.venv/
+env/
+ENV/
+
+# VS Code settings folder
+.vscode/
+
+# Operating system files
+.DS_Store
+
+inputs/
+outputs/
+documents/
+documents_mod/
+regnskab2024/
+scan/
+proto/
+fromexcel/

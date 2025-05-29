@@ -1,0 +1,734 @@
+{
+  "creditors": [
+    {
+      "id": 1,
+      "name": "ATP",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Atp - Samlet Betaling",
+          "postfix": "",
+          "debit_account": "4110.0",
+          "credit_account": "58000.0",
+          "override": ""
+        },
+        {
+          "prefix": "Atp Livslang Pension",
+          "postfix": "",
+          "debit_account": "4110.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Føtex",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Foetex",
+          "postfix": "",
+          "debit_account": "7000.0",
+          "credit_account": "58000.0",
+          "override": "Føtex Skejby"
+        },
+        {
+          "prefix": "foetex Skejby",
+          "postfix": "",
+          "debit_account": "7000.0",
+          "credit_account": "58000.0",
+          "override": "Føtex Skejby"
+        }
+
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Danske Bank",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Gebyrer ifølge nota",
+          "postfix": "",
+          "debit_account": "7200.0",
+          "credit_account": "58000.0",
+          "override": ""
+        },
+        {
+          "prefix": "Rente",
+          "postfix": "",
+          "debit_account": "9899.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Google",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "GOOGLE",
+          "postfix": "",
+          "debit_account": "5900.0",
+          "credit_account": "58000.0",
+          "override": "Google Annoncering"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lb Forsikring",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Lb Forsikring A/S",
+          "postfix": "",
+          "debit_account": "8600.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Par-Tjek",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Licens par-tjek",
+          "postfix": "",
+          "debit_account": "7650.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Microsoft",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "MSFT *",
+          "postfix": "",
+          "debit_account": "7650.0",
+          "credit_account": "58000.0",
+          "override": "Microsoft 365 Abonnement"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Netbankforsikring",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Netbanksforsikring",
+          "postfix": "",
+          "debit_account": "8600.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Nærforsikring",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Nærsikring A/S",
+          "postfix": "",
+          "debit_account": "8600.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Oister",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "OISTER.DK",
+          "postfix": "",
+          "debit_account": "7600.0",
+          "credit_account": "58000.0",
+          "override": "Mobilabonnement (Oister)"
+        },
+        {
+          "prefix": "OiSTER",
+          "postfix": "",
+          "debit_account": "7600.0",
+          "credit_account": "58000.0",
+          "override": "Mobilabonnement (Oister)"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Revisor",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Revisor",
+          "postfix": "",
+          "debit_account": "6100.0",
+          "credit_account": "58000.0",
+          "override": "Revision"
+        },
+        {
+          "prefix": "Til Revisor",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": "Revision"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Saldi",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Saldi",
+          "postfix": "",
+          "debit_account": "7650.0",
+          "credit_account": "58000.0",
+          "override": "Saldi.dk abonnement"
+        },
+        {
+          "prefix": "Til Saldi",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": "Saldi.dk abonnement"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Saxo",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "SAXO.COM",
+          "postfix": "",
+          "debit_account": "7000.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "SC Aarhus",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Sc. Aarhus A/S",
+          "postfix": "",
+          "debit_account": "5100.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Simply",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Simply.com",
+          "postfix": "",
+          "debit_account": "7650.0",
+          "credit_account": "58000.0",
+          "override": "Hosting (web og mail)"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Skattekontoen",
+      "single_voucher": true,
+      "aliases": [
+        {
+          "prefix": "INFO-OVF",
+          "postfix": "900",
+          "debit_account": "64150.0",
+          "credit_account": "58000.0",
+          "override": "Overførsel til Skat (Danløn)"
+        },
+        {
+          "prefix": "SKATTEKONTOEN",
+          "postfix": "",
+          "debit_account": "10500.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Skejby apotek",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Skejby Apotek",
+          "postfix": "",
+          "debit_account": "7000.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Varme",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Varme",
+          "postfix": "",
+          "debit_account": "5200.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Wecare",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "WE.CARE",
+          "postfix": "",
+          "debit_account": "7650.0",
+          "credit_account": "58000.0",
+          "override": ""
+        },
+        {
+          "prefix": "Wecare",
+          "postfix": "",
+          "debit_account": "7650.0",
+          "credit_account": "58000.0",
+          "override": ""
+        },
+        {
+          "prefix": "wecare",
+          "postfix": "",
+          "debit_account": "7650.0",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Danløn",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Overførsel",
+          "postfix": "",
+          "debit_account": "7200.0",
+          "credit_account": "58000.0",
+          "override": "Danløn Gebyr"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Udbetaling Danmark",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Udk Sygedagp.Fors.",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Proshop",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "proshop.dk",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "PsykologCentret Silkeborg",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Til PsykologCentret Silk",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Dansk Parterapeutisk Institut",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Supervision",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        },
+        {
+          "prefix": "Dansk Parterapeutisk",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Total Remove ApS",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "TOTAL-REMOVE APS",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Bog & Ide",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Bog & ide",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "JBP Anlæg",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "JBP Anlaeg",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Kornmods Gaard Parkering",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Kornmods Gaard",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Ikea",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Ikea",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "AXA Forsikring",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "AXA",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Psykologklinikken i",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Psykologklinikken i",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Bios Gaard Parkering",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Parkomater Bios Gaar",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Restaurant Et",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Restaurant-Et",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Rigtig Kaffe",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "rigtigkaffe.dk",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "PC-Lager ApS",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "PC-Lager ApS",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Veri Center Boghandel",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Veri Center Boghande",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hotel Vejlefjord",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "HOTEL VEJLEFJORD",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Kvickly",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Kvickly Bruuns",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Din Boghandel",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Din Boghandel",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Seminar",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Seminar",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Topkær",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Topkær",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Chas. E",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Chas. E.",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Psykologklinikken Vejgaard",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Til Psykologklinikken Ve",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Udlæg",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Udlæg kørte ki",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Mobilepay",
+      "single_voucher": true,
+      "aliases": [
+        {
+          "prefix": "Mobilepay",
+          "postfix": "",
+          "debit_account": "",
+          "credit_account": "58000.0",
+          "override": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Pension",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "INFO-OVF",
+          "postfix": "100",
+          "debit_account": "4120.0",
+          "credit_account": "58000.0",
+          "override": "Overførsel til Pension (Danløn)"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Lønudbetaling",
+      "single_voucher": false,
+      "aliases": [
+        {
+          "prefix": "Lønoverførsel",
+          "postfix": "",
+          "debit_account": "4100.0",
+          "credit_account": "58000.0",
+          "override": "Overførsel af Løn (Danløn)"
+        }
+      ]
+    }
+  ]
+}
