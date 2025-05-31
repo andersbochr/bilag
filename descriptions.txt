@@ -1,2 +1,9 @@
 i uploaded a set of files. disregard matcher.py which i uploaded by mistake - grokmatcher2.py is the current version. There are three python programs. 1: processor.py which processes bank statements, cash payments, and mobile payments (including fees), assigns voucher ids and generates several files for further processing (including assigning account information). is is based on bank.csv, mp.csv and cash.csv plus grokcreditors.json 2: docprocessor.py which processes a folder of documents and extracts information that matches patterns dates, amounts (minus those that are found to be part of a date)  and other text (minus those that are found to be a date or an amount) 3: grokmatcher2.py which contains a small ui to match the bank statements (in bank_kred.csv) to vouchers by the voucher id. The latter also uses grokcreditors.json and can be run multiple times since it maintains its state in matchinfo.json. Analyse and confirm
 
+
+
+matchinfo.json consists of an array of matches between a voucher ids and the name of the file for the voucher id
+i need a python program called voucherdocs.py which can be called from my prompt 
+for each entry in the matchinfo.json it needs to create a copy of the file called "voucher" + the number of the voucher formatted with as a text string with 4 characters ; eg 4 -> 0004 and 127 -> 0127 
+the program needs to take as inputs: 1. the json file containing matches 2. a directory with the current files 3. a directory where the files with the new names are copied to
+be careful to maintain the file extension eg .jpeg or .pdf 
