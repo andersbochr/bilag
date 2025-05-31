@@ -1,0 +1,62 @@
+[
+  {"id": 1, "name": "Arbejdsmarkedets Tillægspension", "single_voucher": true, "aliases": [{"prefix": "ATP", "postfix": "", "debit_account": "4110.0", "credit_account": "58000.0"}]},
+  {"id": 2, "name": "Føtex", "single_voucher": false, "aliases": [{"prefix": "FØTEX", "postfix": "", "debit_account": "7000.0", "credit_account": "58000.0"}]},
+  {"id": 3, "name": "Bank", "single_voucher": false, "aliases": [{"prefix": "GEBYR", "postfix": "", "debit_account": "7200.0", "credit_account": "58000.0"}]},
+  {"id": 4, "name": "Google", "single_voucher": false, "aliases": [
+    {"prefix": "GOOGLE", "postfix": "", "debit_account": "5900.0", "credit_account": "58000.0", "frequency": "monthly", "start_date": "2024-01-01"}
+  ]},
+  {"id": 5, "name": "LB Forsikring", "single_voucher": false, "aliases": [{"prefix": "LB FORSIKRING", "postfix": "", "debit_account": "8600.0", "credit_account": "58000.0"}]},
+  {"id": 8, "name": "SKAT", "single_voucher": false, "aliases": [{"prefix": "SKAT", "postfix": "900", "debit_account": "10500.0", "credit_account": "58000.0"}]},
+  {"id": 9, "name": "Nærsikring", "single_voucher": false, "aliases": [{"prefix": "NÆRSIKRING", "postfix": "", "debit_account": "8600.0", "credit_account": "58000.0"}]},
+  {"id": 10, "name": "Oister", "single_voucher": false, "aliases": [
+    {"prefix": "OISTER.DK", "postfix": "", "debit_account": "7600.0", "credit_account": "58000.0", "override": "Mobilabonnement (Oister)", "frequency": "monthly", "start_date": "2024-01-01"},
+    {"prefix": "OiSTER", "postfix": "", "debit_account": "7600.0", "credit_account": "58000.0", "override": "Mobilabonnement (Oister)", "frequency": "monthly", "start_date": "2024-01-01"}
+  ]},
+  {"id": 11, "name": "Revisoren", "single_voucher": false, "aliases": [{"prefix": "REVISION", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 12, "name": "Saldi", "single_voucher": false, "aliases": [
+    {"prefix": "Saldi", "postfix": "", "debit_account": "7650.0", "credit_account": "58000.0", "override": "Saldi.dk abonnement", "frequency": "semi-annual", "start_date": "2024-03-01"},
+    {"prefix": "Til Saldi", "postfix": "", "debit_account": "7650.0", "credit_account": "58000.0", "override": "Saldi.dk abonnement", "frequency": "semi-annual", "start_date": "2024-03-01"}
+  ]},
+  {"id": 13, "name": "Saxo", "single_voucher": false, "aliases": [{"prefix": "SAXO.COM", "postfix": "", "debit_account": "7000.0", "credit_account": "58000.0"}]},
+  {"id": 14, "name": "Sc. Aarhus A/S", "single_voucher": false, "aliases": [
+    {"prefix": "SC. AARHUS", "postfix": "", "debit_account": "5100.0", "credit_account": "58000.0", "frequency": "quarterly", "start_date": "2024-01-01"}
+    ]},
+  {"id": 16, "name": "SKAT DANLØN", "single_voucher": false, "aliases": [{"prefix": "OVERFØRSEL TIL SKAT", "postfix": "", "debit_account": "64150.0", "credit_account": "58000.0"}]},
+  {"id": 18, "name": "Sc. Aarhus A/S 2", "single_voucher": false, "aliases": [{"prefix": "SC. AARHUS", "postfix": "", "debit_account": "5100.0", "credit_account": "58000.0"}]},
+  {"id": 19, "name": "We.Care", "single_voucher": false, "aliases": [
+    {"prefix": "WE.CARE", "postfix": "", "debit_account": "7650.0", "credit_account": "58000.0", "frequency": "monthly", "start_date": "2024-01-01"},
+    {"prefix": "Wecare", "postfix": "", "debit_account": "7650.0", "credit_account": "58000.0", "frequency": "monthly", "start_date": "2024-01-01"},
+    {"prefix": "wecare", "postfix": "", "debit_account": "7650.0", "credit_account": "58000.0", "frequency": "monthly", "start_date": "2024-01-01"}
+  ]},
+  {"id": 20, "name": "Danløn", "single_voucher": false, "aliases": [
+    {"prefix": "DANLØN GEBYR", "postfix": "", "debit_account": "7200.0", "credit_account": "58000.0", "frequency": "monthly", "start_date": "2024-01-01"}
+  ]},
+  {"id": 21, "name": "Sygedagpenge", "single_voucher": false, "aliases": [{"prefix": "UDK SYGEDAGP.FORS.", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 22, "name": "Proshop", "single_voucher": false, "aliases": [{"prefix": "PROSHOP.DK", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 23, "name": "PsykologCentret Silkeborg", "single_voucher": false, "aliases": [{"prefix": "TIL PSYKOLOGCENTRET SILK", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 24, "name": "Dansk Parterapeutisk Institut", "single_voucher": false, "aliases": [{"prefix": "DANSK PARTERAPEUTISK", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 25, "name": "Total-Remove ApS", "single_voucher": false, "aliases": [
+    {"prefix": "TOTAL-REMOVE APS", "postfix": "", "debit_account": "", "credit_account": "58000.0", "frequency": "bimonthly", "start_date": "2024-02-01"}
+  ]},
+  {"id": 26, "name": "Bog & Idé", "single_voucher": false, "aliases": [{"prefix": "BOG & IDE", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 27, "name": "JBP Anlæg", "single_voucher": false, "aliases": [{"prefix": "JBP ANLAEG", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 28, "name": "Kornmods Gaard", "single_voucher": false, "aliases": [{"prefix": "KORNMODS GAARD", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 29, "name": "Ikea", "single_voucher": false, "aliases": [{"prefix": "IKEA", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 30, "name": "AXA Forsikring", "single_voucher": false, "aliases": [{"prefix": "AXA FORSIKRING", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 31, "name": "Psykologklinikken i Århus", "single_voucher": false, "aliases": [{"prefix": "PSYKOLOGKLINIKKEN I", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 32, "name": "Parkomater", "single_voucher": false, "aliases": [{"prefix": "PARKOMATER", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 33, "name": "Restaurant-Et ApS", "single_voucher": false, "aliases": [{"prefix": "RESTAURANT-ET APS", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 34, "name": "Rigtig Kaffe", "single_voucher": false, "aliases": [{"prefix": "RIGTIGKAFFE.DK", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 35, "name": "PC-Lager ApS", "single_voucher": false, "aliases": [{"prefix": "PC-LAGER APS", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 36, "name": "Veri Center Boghandel", "single_voucher": false, "aliases": [{"prefix": "VERI CENTER BOGHANDE", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 37, "name": "Hotel Vejlefjord", "single_voucher": false, "aliases": [{"prefix": "HOTEL VEJLEFJORD", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 38, "name": "Kvickly", "single_voucher": false, "aliases": [{"prefix": "KVICKLY", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 39, "name": "Din Boghandel", "single_voucher": false, "aliases": [{"prefix": "DIN BOGHANDEL", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 40, "name": "Seminar", "single_voucher": false, "aliases": [{"prefix": "SEMINAR", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 41, "name": "Topkær", "single_voucher": false, "aliases": [{"prefix": "TOPKÆR", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 42, "name": "Chas. E. Vinhandel", "single_voucher": false, "aliases": [{"prefix": "CHAS. E. VINHANDEL", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 43, "name": "Psykologklinikken Vejle", "single_voucher": false, "aliases": [{"prefix": "TIL PSYKOLOGKLINIKKEN VE", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 44, "name": "Udlæg kørte kilometre", "single_voucher": false, "aliases": [{"prefix": "UDLÆG KØRTE KILOMETE", "postfix": "", "debit_account": "", "credit_account": "58000.0"}]},
+  {"id": 46, "name": "Pension", "single_voucher": false, "aliases": [{"prefix": "OVERFØRSEL TIL PENSION", "postfix": "", "debit_account": "4120.0", "credit_account": "58000.0"}]},
+  {"id": 47, "name": "Løn", "single_voucher": false, "aliases": [{"prefix": "OVERFØRSEL AF LØN", "postfix": "", "debit_account": "4100.0", "credit_account": "58000.0"}]}
+]

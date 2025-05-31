@@ -1,0 +1,38 @@
+--- a/matcher.py
++++ b/matcher.py
+@@ class MatcherApp(toga.App):
+     def startup(self):
+-        # Build UI
+-        main_box = toga.Box(style=Pack(direction=COLUMN, padding=10))
++        # Build UI
++        main_box = toga.Box(style=Pack(direction=COLUMN, margin=10))
+
+         # Buttons
+         btn_box = toga.Box(style=Pack(direction=ROW, margin_bottom=10))
+@@
+-        # Table of proposed matches
+-        from toga.widgets.table import TableColumn
+-        columns = [
+-            TableColumn('Voucher', 'voucher'),
+-            TableColumn('File',    'doc'),
+-            TableColumn('Type',    'pass_type'),
+-            TableColumn('Confirm', 'confirm', toga.Button),
+-            TableColumn('Discard', 'discard', toga.Button),
+-        ]
+-        self.table = toga.Table(
+-            headings=[col.heading for col in columns],
+-            accessors=[col.accessor for col in columns],
+-            missing_value='',
+-            style=Pack(flex=1)
+-        )
++        # Table of proposed matches (widgets-in-cells supported)
++        headings = ['Voucher', 'File', 'Type', 'Confirm', 'Discard']
++        accessors = ['voucher', 'doc', 'pass_type', 'confirm', 'discard']
++        self.table = toga.Table(
++            headings=headings,
++            accessors=accessors,
++            missing_value='',
++            style=Pack(flex=1)
++        )
+
+         main_box.add(self.table)

@@ -1,0 +1,22 @@
+2025-05-29 18:52:03,541 - DEBUG: Entering main function
+2025-05-29 18:52:03,541 - DEBUG: Received arguments: ['/home/abc/Udvikling/bilag/documents', 'outputs/bank_kred.csv', 'outputs/docdata.json', 'matchinfo.json', 'grokcreditors.json']
+2025-05-29 18:52:03,542 - DEBUG: Validating file: outputs/bank_kred.csv
+2025-05-29 18:52:03,542 - INFO: File validated: /home/abc/Udvikling/bilag/outputs/bank_kred.csv
+2025-05-29 18:52:03,542 - DEBUG: Validating file: outputs/docdata.json
+2025-05-29 18:52:03,542 - INFO: File validated: /home/abc/Udvikling/bilag/outputs/docdata.json
+2025-05-29 18:52:03,542 - DEBUG: Validating file: matchinfo.json
+2025-05-29 18:52:03,542 - INFO: File validated: /home/abc/Udvikling/bilag/matchinfo.json
+2025-05-29 18:52:03,542 - DEBUG: Validating file: grokcreditors.json
+2025-05-29 18:52:03,542 - INFO: File validated: /home/abc/Udvikling/bilag/grokcreditors.json
+2025-05-29 18:52:03,542 - INFO: Starting GrokMatcher with arguments:
+2025-05-29 18:52:03,542 - INFO:   bank_file: outputs/bank_kred.csv
+2025-05-29 18:52:03,542 - INFO:   creditors_file: grokcreditors.json
+2025-05-29 18:52:03,542 - INFO:   doc_folder: /home/abc/Udvikling/bilag/documents
+2025-05-29 18:52:03,542 - INFO:   docdata_json: outputs/docdata.json
+2025-05-29 18:52:03,542 - INFO:   matchinfo_file: matchinfo.json
+2025-05-29 18:52:03,542 - DEBUG: Checking display server
+2025-05-29 18:52:03,542 - INFO: Display server detected: :0
+2025-05-29 18:52:03,658 - DEBUG: Using selector: _Selector
+2025-05-29 18:52:03,659 - DEBUG: Loading matchinfo from matchinfo.json
+2025-05-29 18:52:03,659 - INFO: Matchinfo: 18 matches, 171 unmatched vouchers
+2025-05-29 18:52:03,659 - INFO: Initialized GrokMatcher application
